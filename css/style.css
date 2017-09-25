@@ -117,15 +117,10 @@ div.todo-container {
 }
 
 #speed {
-    padding: 20px;
-    width: 60%;
+    padding: 76px;
+    width: 100%;
     background: url(../img/speed.jpg) no-repeat;
     background-size: cover;
-    margin-top: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    height: 120px;
-    border-radius: 25px;
 }
 
 .speed-form {
@@ -138,15 +133,10 @@ label {
 }
 
 #temp {
-    padding: 20px;
-    width: 60%;
     background: url(../img/temp.jpg) no-repeat;
+    padding: 76px;
+    width: 100%;
     background-size: cover;
-    margin-top: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    height: 120px;
-    border-radius: 25px;
 }
 
 .temperature-form {
@@ -154,15 +144,10 @@ label {
 }
 
 #weight {
-    padding: 20px;
-    width: 60%;
     background: url(../img/weight.jpg) no-repeat;
+    padding: 76px;
+    width: 100%;
     background-size: cover;
-    margin-top: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    height: 120px;
-    border-radius: 25px;
 }
 
 .weight-form {
@@ -178,8 +163,4 @@ label {
     margin-right: auto;
     width: 100%;
     padding: 20px;
-}
-
-.bottom {
-    margin-top: 9px;
 }

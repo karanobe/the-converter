@@ -8,7 +8,7 @@ function kphToMph(value) {
 
 $ ( document ).ready(function() {
 
-  $input     = $('input#input-mph');
+  $input     = $('input.speed');
   $inputMph  = $('.js-input-mph');
   $inputKph  = $('.js-input-kph');
   $errorsDiv = $('.js-errors');

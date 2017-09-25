@@ -7,7 +7,7 @@ function celsiusToFahrenheit(value) {
 }
 
 $ ( document ).ready(function() {
-  $input            = $('input#input-fahrenheit');
+  $input            = $('input.temp');
   $inputFahrenheit  = $('.js-input-fahrenheit');
   $inputCelsius     = $('.js-input-celsius');
   $errorsDiv        = $('.js-errors');
