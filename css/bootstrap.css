@@ -93,7 +93,7 @@ body {
   font-weight: normal;
   line-height: 1.5;
   color: #212529;
-  background-color: #fff;
+  background-color: lightgrey;
 }
 
 [tabindex="-1"]:focus {
@@ -3316,7 +3316,6 @@ tbody.collapse.show {
   padding: 0.25rem 0.75rem;
   font-size: 1.25rem;
   line-height: 1;
-  background: transparent;
   border: 1px solid transparent;
   border-radius: 0.25rem;
 }
@@ -5287,7 +5286,7 @@ a.bg-light:focus, a.bg-light:hover {
 }
 
 .bg-dark {
-  background-color: #343a40 !important;
+  background-color: whitesmoke !important;
 }
 
 a.bg-dark:focus, a.bg-dark:hover {
@@ -6547,6 +6546,8 @@ a.bg-dark:focus, a.bg-dark:hover {
 .my-4 {
   margin-top: 1.5rem !important;
   margin-bottom: 1.5rem !important;
+  color: white;
+  text-align: center;
 }
 
 .m-5 {

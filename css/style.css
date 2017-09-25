@@ -104,7 +104,7 @@ input {
 
 a.port-link {
     border-color: white;
-    color: white;
+    color: darkgrey;
 }
 
 a.port-link:hover {
