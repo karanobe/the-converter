@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- title -->
+    <title>Temp Converter</title>
+    <!-- favicon -->
+    <link rel="icon" href="favicon.png" type="image/png">
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+    <link href="css/font-awesome.css" rel="stylesheet" type="text/css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  </head>
+  <body>
+        <!-- navbar -->
+    <div class="pos-f-t">
+      <div class="collapse" id="navbarToggleExternalContent">
+        <div class="bg-dark p-4">
+          <a href="https://karanobe.com/" class="port-link"><i class="fa fa-arrow-circle-o-left"></i> Back to Portfolio</a>
+        </div>
+      </div>
+      <nav class="navbar navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </nav>
+    </div>
+
+    <!-- title -->
+    <div class="header">
+        <h2>Converter 3000</h2>
+    </div>
+
+    <!-- speed -->
+    <div id="speed" role="main" class="page-content">
+      <form id="speed-form" class="js-speed-form">
+        <div class="field-group">
+          <label for="input-mph">MPH</label>
+          <input type="text" id="input-mph" class="js-input-mph" data-unit="mph" placeholder="Type in your MPH"/>
+        </div>
+        <div class="field-group">
+          <label for="input-kph">KPH</label>
+          <input type="text" id="input-kph" class="js-input-kph" data-unit="kph" placeholder="Type in your KPH" />
+        </div>
+        <div class="errors js-errors is-hidden"></div>
+      </form>
+    </div>
+
+    <!-- temp -->
+  <div id="temp" role="main" class="page-content">
+    <form id="temperature-form" class="js-temperature-form">
+      <div class="field-group">
+        <label for="input-fahrenheit">F</label>
+        <input type="text" id="input-fahrenheit" class="js-input-fahrenheit" data-unit="fahrenheit" placeholder="Degrees Fahrenheit"/>
+      </div>
+      <div class="field-group">
+        <label for="input-celsius">C</label>
+        <input type="text" id="input-celsius" class="js-input-celsius" data-unit="celsius" placeholder="Degrees Celsius"/>
+      </div>
+      <div class="errors js-errors is-hidden"></div>
+    </form>
+  </div>
+
+    <!-- weight -->
+    <div id="weight" role="main" class="page-content">
+      <form id="weight-form" class="js-weight-form">
+        <div class="field-group">
+          <label for="input-lb">LB</label>
+          <input type="text" id="input-lb" class="js-input-lb" data-unit="lb" placeholder="Pounds"/>
+        </div>
+        <div class="field-group">
+          <label for="input-kg">KG</label>
+          <input type="text" id="input-kg" class="js-input-kg" data-unit="kg" placeholder="KILOGRAMS" />
+        </div>
+        <div class="errors js-errors is-hidden"></div>
+      </form>
+    </div>
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+    <!-- JavaScript -->
+    <script src="js/speed-converter.js"></script>
+    <script src="js/temp-converter.js"></script>
+    <script src="js/weight-converter.js"></script>
+  </body>
+</html>
