@@ -8,7 +8,7 @@ function kgToLb(value) {
 
 $ ( document ).ready(function() {
 
-  $input     = $('input#input-lb');
+  $input     = $('input.weight');
   $inputLb  = $('.js-input-lb');
   $inputKg  = $('.js-input-kg');
   $errorsDiv = $('.js-errors');
